@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JA CUSTOMS</title>
+  </head>
+  <style>
+    img {
+      width: 200px;
+      height: 150px;
+    }
+    p{
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; ;
+    }
+    label {
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 14px;
+    }
+    input[type="text"] {
+      font-size: 14px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(200, 200, 200);
+      padding: 10px 90px;
+      }
+
+  input[type="button"] {
+    background-color:#0d436f;
+    color: white;
+    padding: 12px 32px;
+  }
+  </style>
+  <body>
+    <p style="text-align: center">
+      <img src="jamaica-customs-logo-640x425_0.jpg"></image>
+    </p>
+
+    <p style="text-align: center"><strong>ON-LINE REFUND APPLICATION PORTAL</strong></p>
+    <br/>
+    <br/>
+    <br/>
+  </body>
+  <form>
+      <tr>
+        <label>Refund Processing Office:<label style="color:red;">*</label></label>
+        <td>
+          <select style="padding: 6px 20px" name="HEAD-OFFICE">
+            <option value="NONE"></option>
+            <option value="HEAD-OFFICE1">HEAD-OFFICE-KINGSTON</option>
+            <option value="HEAD-OFFICE2">HEAD-OFFICE-MONTEGO BAY</option>
+          </select>
+          <br/><br/>
+        </td>
+      </tr>
+      <table width="100%" >
+        <tr>
+          <td>
+            <label>First Name of Applicant: <label style="color:red;">*</label></label>
+          </td>
+          <td>
+            <label>Middle Name of Applicant:</label>
+          </td>
+          <td>
+            <label>Last Name of Applicant: <label style="color:red;">*</label></label>
+          </td>
+          <td>
+            <label>Applicant TRN: <label style="color:red;">*</label></label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="text", name="Name">
+          </td>
+          <td>
+            <input type="text" name="Name">
+          </td>
+          <td>
+            <input type="text" name="Name">
+          </td>
+          <td>
+            <input type="text" name="Name">
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>
+            <label style="font-size: 13px;">Please enter the 13 digit TRN without the dashes</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Applicant Office Address/Home Street Address:</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td><input type="text", name="Name"></td>
+          <br/>
+          <td><input type="text", name="Name"></td>
+          <br/>
+        </tr>
+        <tr>
+         <td><input type="text", name="Name"></td>
+         <br/>
+         <td><input type="text", name="Name"></td>
+         <br/>
+        </tr>
+        <tr>
+          <td>
+            <label>City/Parish:</label>
+
+              <select style="padding:5px 10px" name="Parish">
+                <option value="Select">- Select -</option>
+                <option value="Parish1">Kingston</option>
+                <option value="Parish2">St. Andrew</option>
+                <option value="Parish3">St. Catherine</option>
+                <option value="Parish4">St. Thomas</option>
+                <option value="Parish5">St. Mary</option>
+                <option value="Parish6">St.Ann</option>
+                <option value="Parish7">St. Elizabeth</option>
+                <option value="Parish8">Portland</option>
+                <option value="Parish9">Hanover</option>
+                <option value="Parish10">Westmoreland</option>
+                <option value="Parish11">Trelawny</option>
+                <option value="Parish12">Manchester</option>
+                <option value="Parish13">Clarendon</option>
+                <option value="Parish14">St.James</option>
+                <option value="Parish15">Other</option>
+              </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Is the Applicant and Consignee the same (Choose one)? <label style="color:red;">*</label></label>
+          </td>
+          <td></td>
+          <td>
+            <label>Type of Refund Request: </label><label style="color:red;">*</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Yes">Yes</label>
+            <input type="radio"  name="No" id="No">
+            <label for="Yes">No</label>
+            <input type="radio"  name="Not Sure" id="Not Sure">
+            <label for="Yes">Not Sure</label>
+            <input type="radio"  name="Yes" id="Yes">
+            <label for="Yes">Not Applicable</label>
+            <input type="radio"  name="Not-Applicable" id="Not-Applicable">
+          </td>
+          <td></td>
+          <td>
+            <label for="Duties">Duties</label>
+            <input type="checkbox" name="Duties" id="Duties">
+            <label for="Fees">Fees</label>
+            <input type="checkbox" name="Fees" id="Fees">
+            <label for="Taxes">Taxes</label>
+            <input type="checkbox" name=" Taxes" id="Taxes">
+            <label for="Deposit">Deposit</label>
+            <input type="checkbox" name="Deposit" id="Deposit">
+            <label for="Other">Other</label>
+            <input type="checkbox" name="Other" id="Other">
+            <br/><br/>
+            <label>Select all that apply</label>
+          </td>
+        </tr>
+      <tr>
+        <td style="text-align: left">
+          <input type="button" name="Back" value="Back" />
+        </td>
+        <td></td>
+        <td></td>
+        <td style="text-align: right">
+          <input type="button" name="Add Another Supporting Document" value="Add Another Supporting Document" />
+        </td>
+      </tr>
+      
+
+
+      </table>
+      
+
+    
+  </form>
+</html>
